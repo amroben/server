@@ -18,7 +18,7 @@ const app = express();
 // ✅ فعّل CORS أولاً — قبل أي routes
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://frontend-kappa-lyart-98.vercel.app/",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
